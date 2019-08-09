@@ -1,0 +1,77 @@
+[nil,
+ #<RPG::Armor:0x00000000054f3238
+  @atype_id=1,
+  @description="Raises maximum MP by 2 points.",
+  @etype_id=3,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054f2ec8
+     @code=21,
+     @data_id=1,
+     @value=1.5>],
+  @icon_index=447,
+  @id=1,
+  @name="Arcane Cloak",
+  @note="",
+  @params=[0, 0, 0, 0, 0, 0, 0, 0],
+  @price=200>,
+ #<RPG::Armor:0x00000000054f2bd0
+  @atype_id=1,
+  @description=
+   "The Retributionist's Cloak. Returns damage recieved\r\n" + "as your own.",
+  @etype_id=3,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054f2b08
+     @code=22,
+     @data_id=6,
+     @value=0.9>],
+  @icon_index=456,
+  @id=2,
+  @name="Retribution Cloak",
+  @note="",
+  @params=[0, 0, 0, 0, 0, 0, 0, 0],
+  @price=0>,
+ #<RPG::Armor:0x00000000054f2a90
+  @atype_id=1,
+  @description="Raises maximum HP by 2 points.",
+  @etype_id=3,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054f29c8
+     @code=21,
+     @data_id=0,
+     @value=1.5>],
+  @icon_index=446,
+  @id=3,
+  @name="Constitution Cloak",
+  @note="",
+  @params=[0, 0, 0, 0, 0, 0, 0, 0],
+  @price=300>,
+ #<RPG::Armor:0x00000000054f2950
+  @atype_id=0,
+  @description="",
+  @etype_id=1,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054f2888
+     @code=22,
+     @data_id=1,
+     @value=0>],
+  @icon_index=0,
+  @id=4,
+  @name="",
+  @note="",
+  @params=[0, 0, 0, 0, 0, 0, 0, 0],
+  @price=0>,
+ #<RPG::Armor:0x00000000054f2838
+  @atype_id=0,
+  @description="",
+  @etype_id=1,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054f2770
+     @code=22,
+     @data_id=1,
+     @value=0>],
+  @icon_index=0,
+  @id=5,
+  @name="",
+  @note="",
+  @params=[0, 0, 0, 0, 0, 0, 0, 0],
+  @price=0>]

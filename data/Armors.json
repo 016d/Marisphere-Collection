@@ -1,0 +1,6 @@
+[
+null,
+{"atypeId":1,"description":"Raises maximum MP by 2 points.","etypeId":2,"traits":[{"code":21,"dataId":1,"value":1.5}],"iconIndex":447,"id":1,"name":"Arcane Cloak","note":"","params":[0,0,0,0,0,0,0,0],"price":200},
+{"atypeId":1,"description":"The Retributionist's Cloak. Returns damage recieved\r\nas your own.","etypeId":2,"traits":[{"code":22,"dataId":6,"value":0.9}],"iconIndex":456,"id":2,"name":"Retribution Cloak","note":"","params":[0,0,0,0,0,0,0,0],"price":0},
+{"atypeId":1,"description":"Raises maximum HP by 2 points.","etypeId":2,"traits":[{"code":21,"dataId":0,"value":1.5}],"iconIndex":446,"id":3,"name":"Constitution Cloak","note":"","params":[0,0,0,0,0,0,0,0],"price":300}
+]

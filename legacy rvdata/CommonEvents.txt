@@ -1,0 +1,737 @@
+[nil,
+ #<RPG::CommonEvent:0x00000000053a7578
+  @id=1,
+  @list=
+   [#<RPG::EventCommand:0x00000000053a7370
+     @code=205,
+     @indent=0,
+     @parameters=
+      [-1,
+       #<RPG::MoveRoute:0x00000000053a7280
+        @list=
+         [#<RPG::MoveCommand:0x00000000053a70a0 @code=29, @parameters=[6]>,
+          #<RPG::MoveCommand:0x00000000053a7000 @code=0, @parameters=[]>],
+        @repeat=false,
+        @skippable=false,
+        @wait=false>]>,
+    #<RPG::EventCommand:0x00000000053a6f60
+     @code=505,
+     @indent=0,
+     @parameters=
+      [#<RPG::MoveCommand:0x00000000053a70a0 @code=29, @parameters=[6]>]>,
+    #<RPG::EventCommand:0x00000000053a6f10
+     @code=124,
+     @indent=0,
+     @parameters=[0, 5]>,
+    #<RPG::EventCommand:0x00000000053a6ec0
+     @code=111,
+     @indent=0,
+     @parameters=[3, 0, 1]>,
+    #<RPG::EventCommand:0x00000000053a6e70
+     @code=124,
+     @indent=1,
+     @parameters=[1]>,
+    #<RPG::EventCommand:0x00000000053a6e20
+     @code=205,
+     @indent=1,
+     @parameters=
+      [-1,
+       #<RPG::MoveRoute:0x00000000053a6dd0
+        @list=
+         [#<RPG::MoveCommand:0x00000000053a6d80 @code=29, @parameters=[4]>,
+          #<RPG::MoveCommand:0x00000000053a6d30 @code=0, @parameters=[]>],
+        @repeat=false,
+        @skippable=false,
+        @wait=false>]>,
+    #<RPG::EventCommand:0x00000000053a6ce0
+     @code=505,
+     @indent=1,
+     @parameters=
+      [#<RPG::MoveCommand:0x00000000053a6d80 @code=29, @parameters=[4]>]>,
+    #<RPG::EventCommand:0x00000000053a6c90 @code=0, @indent=1, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a6c40
+     @code=412,
+     @indent=0,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a6bf0
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="Boots Activation",
+  @switch_id=1,
+  @trigger=0>,
+ #<RPG::CommonEvent:0x00000000053a6b28
+  @id=2,
+  @list=
+   [#<RPG::EventCommand:0x00000000053a6ab0
+     @code=111,
+     @indent=0,
+     @parameters=[3, 0, 1]>,
+    #<RPG::EventCommand:0x00000000053a6a60
+     @code=124,
+     @indent=1,
+     @parameters=[1]>,
+    #<RPG::EventCommand:0x00000000053a6a10
+     @code=205,
+     @indent=1,
+     @parameters=
+      [-1,
+       #<RPG::MoveRoute:0x00000000053a69c0
+        @list=
+         [#<RPG::MoveCommand:0x00000000053a6970 @code=29, @parameters=[4]>,
+          #<RPG::MoveCommand:0x00000000053a6920 @code=0, @parameters=[]>],
+        @repeat=false,
+        @skippable=false,
+        @wait=false>]>,
+    #<RPG::EventCommand:0x00000000053a68d0
+     @code=505,
+     @indent=1,
+     @parameters=
+      [#<RPG::MoveCommand:0x00000000053a6970 @code=29, @parameters=[4]>]>,
+    #<RPG::EventCommand:0x00000000053a6880 @code=0, @indent=1, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a6830
+     @code=412,
+     @indent=0,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a67e0
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="Boot Timer Check",
+  @switch_id=84,
+  @trigger=2>,
+ #<RPG::CommonEvent:0x00000000053a6790
+  @id=3,
+  @list=
+   [#<RPG::EventCommand:0x00000000053a6718
+     @code=205,
+     @indent=0,
+     @parameters=
+      [-1,
+       #<RPG::MoveRoute:0x00000000053a66c8
+        @list=
+         [#<RPG::MoveCommand:0x00000000053a6678 @code=29, @parameters=[6]>,
+          #<RPG::MoveCommand:0x00000000053a6628 @code=0, @parameters=[]>],
+        @repeat=false,
+        @skippable=false,
+        @wait=false>]>,
+    #<RPG::EventCommand:0x00000000053a65d8
+     @code=505,
+     @indent=0,
+     @parameters=
+      [#<RPG::MoveCommand:0x00000000053a6678 @code=29, @parameters=[6]>]>,
+    #<RPG::EventCommand:0x00000000053a6588
+     @code=124,
+     @indent=0,
+     @parameters=[0, 150]>,
+    #<RPG::EventCommand:0x00000000053a6538
+     @code=111,
+     @indent=0,
+     @parameters=[3, 0, 1]>,
+    #<RPG::EventCommand:0x00000000053a64e8
+     @code=124,
+     @indent=1,
+     @parameters=[1]>,
+    #<RPG::EventCommand:0x00000000053a6498
+     @code=205,
+     @indent=1,
+     @parameters=
+      [-1,
+       #<RPG::MoveRoute:0x00000000053a6448
+        @list=
+         [#<RPG::MoveCommand:0x00000000053a63f8 @code=29, @parameters=[4]>,
+          #<RPG::MoveCommand:0x00000000053a63a8 @code=0, @parameters=[]>],
+        @repeat=false,
+        @skippable=false,
+        @wait=false>]>,
+    #<RPG::EventCommand:0x00000000053a6358
+     @code=505,
+     @indent=1,
+     @parameters=
+      [#<RPG::MoveCommand:0x00000000053a63f8 @code=29, @parameters=[4]>]>,
+    #<RPG::EventCommand:0x00000000053a6308 @code=0, @indent=1, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a62b8
+     @code=412,
+     @indent=0,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a6268
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="Timbs Activation",
+  @switch_id=1,
+  @trigger=0>,
+ #<RPG::CommonEvent:0x00000000053a6218
+  @id=4,
+  @list=
+   [#<RPG::EventCommand:0x00000000053a61a0
+     @code=121,
+     @indent=0,
+     @parameters=[41, 41, 0]>,
+    #<RPG::EventCommand:0x00000000053a6150
+     @code=124,
+     @indent=0,
+     @parameters=[0, 30]>,
+    #<RPG::EventCommand:0x00000000053a6100
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="Dazzling Limelight Activation",
+  @switch_id=1,
+  @trigger=0>,
+ #<RPG::CommonEvent:0x00000000053a60b0
+  @id=5,
+  @list=
+   [#<RPG::EventCommand:0x00000000053a6038
+     @code=111,
+     @indent=0,
+     @parameters=[3, 0, 1]>,
+    #<RPG::EventCommand:0x00000000053a5fe8
+     @code=124,
+     @indent=1,
+     @parameters=[1]>,
+    #<RPG::EventCommand:0x00000000053a5f98
+     @code=121,
+     @indent=1,
+     @parameters=[41, 41, 1]>,
+    #<RPG::EventCommand:0x00000000053a5f48 @code=0, @indent=1, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a5ef8
+     @code=412,
+     @indent=0,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a5ea8
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="Dazzling Limelight Timer Check",
+  @switch_id=81,
+  @trigger=2>,
+ #<RPG::CommonEvent:0x00000000053a5e58
+  @id=6,
+  @list=
+   [#<RPG::EventCommand:0x00000000053a5de0
+     @code=111,
+     @indent=0,
+     @parameters=[4, 1, 6, 1]>,
+    #<RPG::EventCommand:0x00000000053a5d90
+     @code=225,
+     @indent=1,
+     @parameters=[9, 9, 25, false]>,
+    #<RPG::EventCommand:0x00000000053a5d40
+     @code=223,
+     @indent=1,
+     @parameters=
+      [#<Tone:0x00000000053a5ca0 @a=0.0, @b=-255.0, @g=-255.0, @r=0.0>,
+       60,
+       true]>,
+    #<RPG::EventCommand:0x00000000053a5c00
+     @code=250,
+     @indent=1,
+     @parameters=
+      [#<RPG::SE:0x00000000053a5b88
+        @name="MU - Chrom Deafeated",
+        @pitch=85,
+        @volume=80>]>,
+    #<RPG::EventCommand:0x00000000053a5a48
+     @code=242,
+     @indent=1,
+     @parameters=[1]>,
+    #<RPG::EventCommand:0x00000000053a59f8
+     @code=101,
+     @indent=1,
+     @parameters=["Actor5", 2, 1, 2]>,
+    #<RPG::EventCommand:0x00000000053a5980
+     @code=401,
+     @indent=1,
+     @parameters=["I'm so sorry everyone...please forgive"]>,
+    #<RPG::EventCommand:0x00000000053a5908
+     @code=401,
+     @indent=1,
+     @parameters=["me..."]>,
+    #<RPG::EventCommand:0x00000000053a5890
+     @code=111,
+     @indent=1,
+     @parameters=[4, 2, 0]>,
+    #<RPG::EventCommand:0x00000000053a5840
+     @code=101,
+     @indent=2,
+     @parameters=["Actor4", 0, 1, 2]>,
+    #<RPG::EventCommand:0x00000000053a57c8
+     @code=401,
+     @indent=2,
+     @parameters=["Brae, NO!"]>,
+    #<RPG::EventCommand:0x00000000053a5750
+     @code=101,
+     @indent=2,
+     @parameters=["Actor4", 0, 1, 2]>,
+    #<RPG::EventCommand:0x00000000053a56d8
+     @code=401,
+     @indent=2,
+     @parameters=["Open your eyes...OPEN YOUR EYES!"]>,
+    #<RPG::EventCommand:0x00000000053a5660 @code=0, @indent=2, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a5610
+     @code=411,
+     @indent=1,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a55c0 @code=0, @indent=2, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a5570
+     @code=412,
+     @indent=1,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a5520
+     @code=353,
+     @indent=1,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a54d0 @code=0, @indent=1, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a5480
+     @code=412,
+     @indent=0,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a5430
+     @code=111,
+     @indent=0,
+     @parameters=[4, 2, 6, 1]>,
+    #<RPG::EventCommand:0x00000000053a53e0
+     @code=101,
+     @indent=1,
+     @parameters=["Actor4", 0, 1, 2]>,
+    #<RPG::EventCommand:0x00000000053a5368
+     @code=401,
+     @indent=1,
+     @parameters=["I-I'm sorry everyone...I can't fight"]>,
+    #<RPG::EventCommand:0x00000000053a52f0
+     @code=401,
+     @indent=1,
+     @parameters=["no more..."]>,
+    #<RPG::EventCommand:0x00000000053a5278
+     @code=129,
+     @indent=1,
+     @parameters=[2, 1, 0]>,
+    #<RPG::EventCommand:0x00000000053a5228
+     @code=313,
+     @indent=1,
+     @parameters=[0, 2, 1, 1]>,
+    #<RPG::EventCommand:0x00000000053a51d8 @code=0, @indent=1, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a5188
+     @code=412,
+     @indent=0,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a5138
+     @code=111,
+     @indent=0,
+     @parameters=[4, 3, 6, 1]>,
+    #<RPG::EventCommand:0x00000000053a50e8
+     @code=101,
+     @indent=1,
+     @parameters=["Actor3", 2, 1, 2]>,
+    #<RPG::EventCommand:0x00000000053a5070
+     @code=401,
+     @indent=1,
+     @parameters=["Ugh...shit! Just when things were"]>,
+    #<RPG::EventCommand:0x00000000053a4ff8
+     @code=401,
+     @indent=1,
+     @parameters=["starting to look up..."]>,
+    #<RPG::EventCommand:0x00000000053a4f80
+     @code=101,
+     @indent=1,
+     @parameters=["Actor3", 2, 1, 2]>,
+    #<RPG::EventCommand:0x00000000053a4f58
+     @code=401,
+     @indent=1,
+     @parameters=["I'm sorry Kino...Brae...you're gonna have"]>,
+    #<RPG::EventCommand:0x00000000053a4ee0
+     @code=401,
+     @indent=1,
+     @parameters=["to let me go."]>,
+    #<RPG::EventCommand:0x00000000053a4e68
+     @code=129,
+     @indent=1,
+     @parameters=[3, 1, 0]>,
+    #<RPG::EventCommand:0x00000000053a4e18
+     @code=313,
+     @indent=1,
+     @parameters=[0, 3, 1, 1]>,
+    #<RPG::EventCommand:0x00000000053a4dc8 @code=0, @indent=1, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a4d78
+     @code=412,
+     @indent=0,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a4d28
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="Death Check",
+  @switch_id=81,
+  @trigger=2>,
+ #<RPG::CommonEvent:0x00000000053a4cd8
+  @id=7,
+  @list=
+   [#<RPG::EventCommand:0x00000000053a4c60
+     @code=111,
+     @indent=0,
+     @parameters=[3, 0, 1]>,
+    #<RPG::EventCommand:0x00000000053a4c10
+     @code=124,
+     @indent=1,
+     @parameters=[1]>,
+    #<RPG::EventCommand:0x00000000053a4bc0
+     @code=313,
+     @indent=1,
+     @parameters=[0, 0, 0, 1]>,
+    #<RPG::EventCommand:0x00000000053a4b70
+     @code=117,
+     @indent=1,
+     @parameters=[6]>,
+    #<RPG::EventCommand:0x00000000053a4b20 @code=0, @indent=1, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a4ad0
+     @code=412,
+     @indent=0,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a4a80
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="Death Timer",
+  @switch_id=11,
+  @trigger=2>,
+ #<RPG::CommonEvent:0x00000000053a4a30
+  @id=8,
+  @list=
+   [#<RPG::EventCommand:0x00000000053a49b8
+     @code=111,
+     @indent=0,
+     @parameters=[1, 3, 0, 0, 0]>,
+    #<RPG::EventCommand:0x00000000053a4968
+     @code=101,
+     @indent=1,
+     @parameters=["", 0, 1, 2]>,
+    #<RPG::EventCommand:0x00000000053a48f0
+     @code=401,
+     @indent=1,
+     @parameters=["This item needs to be recharged."]>,
+    #<RPG::EventCommand:0x00000000053a4878 @code=0, @indent=1, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a4828
+     @code=411,
+     @indent=0,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a47d8
+     @code=101,
+     @indent=1,
+     @parameters=["", 0, 1, 2]>,
+    #<RPG::EventCommand:0x00000000053a4760
+     @code=401,
+     @indent=1,
+     @parameters=["Restore Energy?"]>,
+    #<RPG::EventCommand:0x00000000053a46e8
+     @code=102,
+     @indent=1,
+     @parameters=[["Yes", "No"], 2]>,
+    #<RPG::EventCommand:0x00000000053a4620
+     @code=402,
+     @indent=1,
+     @parameters=[0, "Yes"]>,
+    #<RPG::EventCommand:0x00000000053a45d0
+     @code=101,
+     @indent=2,
+     @parameters=["", 0, 1, 2]>,
+    #<RPG::EventCommand:0x00000000053a4558
+     @code=401,
+     @indent=2,
+     @parameters=["Understood."]>,
+    #<RPG::EventCommand:0x00000000053a44e0
+     @code=224,
+     @indent=2,
+     @parameters=
+      [#<Color:0x00000000053a4440 @a=119.0, @b=255.0, @g=255.0, @r=0.0>,
+       60,
+       true]>,
+    #<RPG::EventCommand:0x00000000053a43a0
+     @code=314,
+     @indent=2,
+     @parameters=[0, 0]>,
+    #<RPG::EventCommand:0x00000000053a4350
+     @code=122,
+     @indent=2,
+     @parameters=[3, 3, 2, 0, 1]>,
+    #<RPG::EventCommand:0x00000000053a4300
+     @code=101,
+     @indent=2,
+     @parameters=["", 0, 1, 2]>,
+    #<RPG::EventCommand:0x00000000053a4288
+     @code=401,
+     @indent=2,
+     @parameters=["This item has \\V[003] uses left before"]>,
+    #<RPG::EventCommand:0x00000000053a4210
+     @code=401,
+     @indent=2,
+     @parameters=["requiring a recharge."]>,
+    #<RPG::EventCommand:0x00000000053a4198 @code=0, @indent=2, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053a4148
+     @code=402,
+     @indent=1,
+     @parameters=[1, "No"]>,
+    #<RPG::EventCommand:0x00000000053a40f8
+     @code=101,
+     @indent=2,
+     @parameters=["", 0, 1, 2]>,
+    #<RPG::EventCommand:0x00000000053a4080
+     @code=401,
+     @indent=2,
+     @parameters=["Understood."]>,
+    #<RPG::EventCommand:0x00000000053a4008 @code=0, @indent=2, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053b3f80
+     @code=404,
+     @indent=1,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053b3f30 @code=0, @indent=1, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053b3ee0
+     @code=412,
+     @indent=0,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053b3e90
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="Aeon Gauntlet",
+  @switch_id=1,
+  @trigger=0>,
+ #<RPG::CommonEvent:0x00000000053b3e40
+  @id=9,
+  @list=
+   [#<RPG::EventCommand:0x00000000053b3dc8
+     @code=205,
+     @indent=0,
+     @parameters=
+      [-1,
+       #<RPG::MoveRoute:0x00000000053b3d78
+        @list=
+         [#<RPG::MoveCommand:0x00000000053b3d28 @code=29, @parameters=[6]>,
+          #<RPG::MoveCommand:0x00000000053b3cd8 @code=43, @parameters=[1]>,
+          #<RPG::MoveCommand:0x00000000053b3c88 @code=0, @parameters=[]>],
+        @repeat=false,
+        @skippable=false,
+        @wait=false>]>,
+    #<RPG::EventCommand:0x00000000053b3c38
+     @code=505,
+     @indent=0,
+     @parameters=
+      [#<RPG::MoveCommand:0x00000000053b3d28 @code=29, @parameters=[6]>]>,
+    #<RPG::EventCommand:0x00000000053b3be8
+     @code=505,
+     @indent=0,
+     @parameters=
+      [#<RPG::MoveCommand:0x00000000053b3cd8 @code=43, @parameters=[1]>]>,
+    #<RPG::EventCommand:0x00000000053b3b98
+     @code=121,
+     @indent=0,
+     @parameters=[85, 85, 0]>,
+    #<RPG::EventCommand:0x00000000053b3b48
+     @code=124,
+     @indent=0,
+     @parameters=[0, 3]>,
+    #<RPG::EventCommand:0x00000000053b3af8
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="Rush Fury",
+  @switch_id=1,
+  @trigger=0>,
+ #<RPG::CommonEvent:0x00000000053b3aa8
+  @id=10,
+  @list=
+   [#<RPG::EventCommand:0x00000000053b3a30
+     @code=111,
+     @indent=0,
+     @parameters=[3, 0, 1]>,
+    #<RPG::EventCommand:0x00000000053b39e0
+     @code=124,
+     @indent=1,
+     @parameters=[1]>,
+    #<RPG::EventCommand:0x00000000053b3990
+     @code=205,
+     @indent=1,
+     @parameters=
+      [-1,
+       #<RPG::MoveRoute:0x00000000053b3940
+        @list=
+         [#<RPG::MoveCommand:0x00000000053b38f0 @code=29, @parameters=[4]>,
+          #<RPG::MoveCommand:0x00000000053b38a0 @code=43, @parameters=[0]>,
+          #<RPG::MoveCommand:0x00000000053b3850 @code=0, @parameters=[]>],
+        @repeat=false,
+        @skippable=false,
+        @wait=false>]>,
+    #<RPG::EventCommand:0x00000000053b3800
+     @code=505,
+     @indent=1,
+     @parameters=
+      [#<RPG::MoveCommand:0x00000000053b38f0 @code=29, @parameters=[4]>]>,
+    #<RPG::EventCommand:0x00000000053b37b0
+     @code=505,
+     @indent=1,
+     @parameters=
+      [#<RPG::MoveCommand:0x00000000053b38a0 @code=43, @parameters=[0]>]>,
+    #<RPG::EventCommand:0x00000000053b3760 @code=0, @indent=1, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053b3710
+     @code=412,
+     @indent=0,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053b36c0
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="RF Check",
+  @switch_id=85,
+  @trigger=2>,
+ #<RPG::CommonEvent:0x00000000053b3670
+  @id=11,
+  @list=
+   [#<RPG::EventCommand:0x00000000053b35f8
+     @code=111,
+     @indent=0,
+     @parameters=[4, 3, 0]>,
+    #<RPG::EventCommand:0x00000000053b35a8
+     @code=111,
+     @indent=1,
+     @parameters=[11, 16]>,
+    #<RPG::EventCommand:0x00000000053b3558
+     @code=111,
+     @indent=2,
+     @parameters=[1, 8, 0, 0, 2]>,
+    #<RPG::EventCommand:0x00000000053b3508
+     @code=101,
+     @indent=3,
+     @parameters=["", 0, 1, 2]>,
+    #<RPG::EventCommand:0x00000000053b3490
+     @code=401,
+     @indent=3,
+     @parameters=["The knife is too damaged."]>,
+    #<RPG::EventCommand:0x00000000053b3418 @code=0, @indent=3, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053b33c8
+     @code=411,
+     @indent=2,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053b3378
+     @code=212,
+     @indent=3,
+     @parameters=[0, 7, false]>,
+    #<RPG::EventCommand:0x00000000053b3328
+     @code=214,
+     @indent=3,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053b32d8
+     @code=122,
+     @indent=3,
+     @parameters=[8, 8, 2, 0, 1]>,
+    #<RPG::EventCommand:0x00000000053b3288 @code=0, @indent=3, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053b3238
+     @code=412,
+     @indent=2,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053b31e8 @code=0, @indent=2, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053b3198
+     @code=412,
+     @indent=1,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053b3148 @code=0, @indent=1, @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053b30f8
+     @code=412,
+     @indent=0,
+     @parameters=[]>,
+    #<RPG::EventCommand:0x00000000053b30a8
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="Combat",
+  @switch_id=1,
+  @trigger=0>,
+ #<RPG::CommonEvent:0x00000000053b3058
+  @id=12,
+  @list=
+   [#<RPG::EventCommand:0x00000000053b2fe0
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="",
+  @switch_id=1,
+  @trigger=0>,
+ #<RPG::CommonEvent:0x00000000053b2f90
+  @id=13,
+  @list=
+   [#<RPG::EventCommand:0x00000000053b2f18
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="",
+  @switch_id=1,
+  @trigger=0>,
+ #<RPG::CommonEvent:0x00000000053b2ec8
+  @id=14,
+  @list=
+   [#<RPG::EventCommand:0x00000000053b2e50
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="",
+  @switch_id=1,
+  @trigger=0>,
+ #<RPG::CommonEvent:0x00000000053b2e00
+  @id=15,
+  @list=
+   [#<RPG::EventCommand:0x00000000053b2d88
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="",
+  @switch_id=1,
+  @trigger=0>,
+ #<RPG::CommonEvent:0x00000000053b2d38
+  @id=16,
+  @list=
+   [#<RPG::EventCommand:0x00000000053b2cc0
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="",
+  @switch_id=1,
+  @trigger=0>,
+ #<RPG::CommonEvent:0x00000000053b2c70
+  @id=17,
+  @list=
+   [#<RPG::EventCommand:0x00000000053b2bf8
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="",
+  @switch_id=1,
+  @trigger=0>,
+ #<RPG::CommonEvent:0x00000000053b2ba8
+  @id=18,
+  @list=
+   [#<RPG::EventCommand:0x00000000053b2b30
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="",
+  @switch_id=1,
+  @trigger=0>,
+ #<RPG::CommonEvent:0x00000000053b2ae0
+  @id=19,
+  @list=
+   [#<RPG::EventCommand:0x00000000053b2a68
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="",
+  @switch_id=1,
+  @trigger=0>,
+ #<RPG::CommonEvent:0x00000000053b2a18
+  @id=20,
+  @list=
+   [#<RPG::EventCommand:0x00000000053b29a0
+     @code=0,
+     @indent=0,
+     @parameters=[]>],
+  @name="",
+  @switch_id=1,
+  @trigger=0>]

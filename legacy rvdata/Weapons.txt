@@ -1,0 +1,357 @@
+[nil,
+ #<RPG::Weapon:0x00000000054a7310
+  @animation_id=7,
+  @description=
+   "Brae's basic weapon. A small dagger that packs\r\n" + "a punch.",
+  @etype_id=0,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054a6f28
+     @code=31,
+     @data_id=1,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a6e38
+     @code=22,
+     @data_id=0,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a6e10
+     @code=43,
+     @data_id=3,
+     @value=0.0>],
+  @icon_index=150,
+  @id=1,
+  @name="Silver Dagger",
+  @note="",
+  @params=[0, 0, 4, 0, 0, 0, 0, 0],
+  @price=0,
+  @wtype_id=7>,
+ #<RPG::Weapon:0x00000000054a6be0
+  @animation_id=10,
+  @description=
+   "Brae's Prime weapon. A golden saber used for\r\n" +
+   "lethal battles. Grants Brae the ability to use Astra.",
+  @etype_id=0,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054a6b18
+     @code=31,
+     @data_id=1,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a6af0
+     @code=22,
+     @data_id=0,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a6ac8
+     @code=43,
+     @data_id=8,
+     @value=0.0>],
+  @icon_index=391,
+  @id=2,
+  @name="Golden Dagger",
+  @note="",
+  @params=[0, 0, 8, 0, 0, 0, 0, 0],
+  @price=0,
+  @wtype_id=7>,
+ #<RPG::Weapon:0x00000000054a6a50
+  @animation_id=19,
+  @description=
+   "Era's basic weapon. A basic axe that grants some\r\n" + "strength.",
+  @etype_id=0,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054a6988
+     @code=31,
+     @data_id=1,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a6960
+     @code=22,
+     @data_id=0,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a6938
+     @code=43,
+     @data_id=4,
+     @value=0.0>],
+  @icon_index=144,
+  @id=3,
+  @name="Blacksmith's Axe",
+  @note="",
+  @params=[0, 0, 4, 0, 0, 0, 0, 0],
+  @price=0,
+  @wtype_id=1>,
+ #<RPG::Weapon:0x00000000054a68c0
+  @animation_id=20,
+  @description=
+   "Era's Prime weapon. A legendary axe.\r\n" +
+   "Grants Era the ability to use Power of Hauteclere.",
+  @etype_id=0,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054a67f8
+     @code=31,
+     @data_id=1,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a67d0
+     @code=22,
+     @data_id=0,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a67a8
+     @code=43,
+     @data_id=9,
+     @value=0.0>],
+  @icon_index=241,
+  @id=4,
+  @name="Hauteclere",
+  @note="",
+  @params=[0, 0, 8, 0, 0, 0, 0, 0],
+  @price=0,
+  @wtype_id=1>,
+ #<RPG::Weapon:0x00000000054a6730
+  @animation_id=13,
+  @description=
+   "Dusk's basic weapon. A simple strung bow strong\r\n" + "against fire. ",
+  @etype_id=0,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054a6668
+     @code=31,
+     @data_id=1,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a6640
+     @code=22,
+     @data_id=0,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a6618
+     @code=43,
+     @data_id=5,
+     @value=0.0>],
+  @icon_index=149,
+  @id=5,
+  @name="Petrified Wood Bow",
+  @note="",
+  @params=[0, 0, 4, 0, 0, 0, 0, 0],
+  @price=0,
+  @wtype_id=6>,
+ #<RPG::Weapon:0x00000000054a65a0
+  @animation_id=15,
+  @description=
+   "Dusk's Prime weapon. Grants Dusk the ability to use \r\n" +
+   "Aether Shot. ",
+  @etype_id=0,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054a64d8
+     @code=31,
+     @data_id=1,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a64b0
+     @code=22,
+     @data_id=0,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a6488
+     @code=43,
+     @data_id=10,
+     @value=0.0>],
+  @icon_index=428,
+  @id=6,
+  @name="Python Bow",
+  @note="",
+  @params=[0, 0, 8, 0, 0, 0, 0, 0],
+  @price=0,
+  @wtype_id=6>,
+ #<RPG::Weapon:0x00000000054a6410
+  @animation_id=13,
+  @description="Kino's basic weapon. A simple lance of simple\r\n" + "origin.",
+  @etype_id=0,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054a6348
+     @code=31,
+     @data_id=1,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a6320
+     @code=22,
+     @data_id=0,
+     @value=0>],
+  @icon_index=146,
+  @id=7,
+  @name="Steel Halberd",
+  @note="",
+  @params=[0, 0, 4, 0, 0, 0, 0, 0],
+  @price=0,
+  @wtype_id=3>,
+ #<RPG::Weapon:0x00000000054a62d0
+  @animation_id=18,
+  @description=
+   "Kino's Prime weapon. A symbol of Bravery.\r\n" +
+   "Grants Kino use of the Last Gambit skill.",
+  @etype_id=0,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054a6208
+     @code=31,
+     @data_id=1,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a61e0
+     @code=22,
+     @data_id=0,
+     @value=0>],
+  @icon_index=420,
+  @id=8,
+  @name="Brave Lance",
+  @note="",
+  @params=[0, 0, 8, 0, 0, 0, 0, 0],
+  @price=0,
+  @wtype_id=3>,
+ #<RPG::Weapon:0x00000000054a6190
+  @animation_id=84,
+  @description=
+   "Vendetta's attack. Lethal matter directed towards\r\n" + "the enemy.",
+  @etype_id=0,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054a60c8
+     @code=31,
+     @data_id=1,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a60a0
+     @code=22,
+     @data_id=0,
+     @value=0>],
+  @icon_index=120,
+  @id=9,
+  @name="Expiration",
+  @note="",
+  @params=[0, 0, 7, 0, 0, 0, 0, 0],
+  @price=0,
+  @wtype_id=2>,
+ #<RPG::Weapon:0x00000000054a6050
+  @animation_id=19,
+  @description="Keith's weapon. A strong Shield with high power.",
+  @etype_id=0,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054a5f88
+     @code=31,
+     @data_id=1,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a5f60
+     @code=22,
+     @data_id=0,
+     @value=0>],
+  @icon_index=497,
+  @id=10,
+  @name="Pavise",
+  @note="",
+  @params=[0, 0, 7, 0, 0, 0, 0, 0],
+  @price=0,
+  @wtype_id=8>,
+ #<RPG::Weapon:0x00000000054a5f10
+  @animation_id=8,
+  @description="Tristan's weapon. A timeless katana.",
+  @etype_id=0,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054a5e48
+     @code=31,
+     @data_id=1,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a5e20
+     @code=22,
+     @data_id=0,
+     @value=0>],
+  @icon_index=399,
+  @id=11,
+  @name="Phoenix Wing",
+  @note="",
+  @params=[0, 0, 7, 0, 0, 0, 0, 0],
+  @price=0,
+  @wtype_id=5>,
+ #<RPG::Weapon:0x00000000054a5dd0
+  @animation_id=0,
+  @description="",
+  @etype_id=0,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054a5d08
+     @code=31,
+     @data_id=1,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a5ce0
+     @code=22,
+     @data_id=0,
+     @value=0>],
+  @icon_index=0,
+  @id=12,
+  @name="",
+  @note="",
+  @params=[0, 0, 0, 0, 0, 0, 0, 0],
+  @price=0,
+  @wtype_id=0>,
+ #<RPG::Weapon:0x00000000054a5c90
+  @animation_id=0,
+  @description="",
+  @etype_id=0,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054a5bc8
+     @code=31,
+     @data_id=1,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a5ba0
+     @code=22,
+     @data_id=0,
+     @value=0>],
+  @icon_index=0,
+  @id=13,
+  @name="",
+  @note="",
+  @params=[0, 0, 0, 0, 0, 0, 0, 0],
+  @price=0,
+  @wtype_id=0>,
+ #<RPG::Weapon:0x00000000054a5b50
+  @animation_id=0,
+  @description="",
+  @etype_id=0,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054a5a88
+     @code=31,
+     @data_id=1,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a5a60
+     @code=22,
+     @data_id=0,
+     @value=0>],
+  @icon_index=0,
+  @id=14,
+  @name="",
+  @note="",
+  @params=[0, 0, 0, 0, 0, 0, 0, 0],
+  @price=0,
+  @wtype_id=0>,
+ #<RPG::Weapon:0x00000000054a5a10
+  @animation_id=0,
+  @description="",
+  @etype_id=0,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054a5948
+     @code=31,
+     @data_id=1,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a5920
+     @code=22,
+     @data_id=0,
+     @value=0>],
+  @icon_index=0,
+  @id=15,
+  @name="",
+  @note="",
+  @params=[0, 0, 0, 0, 0, 0, 0, 0],
+  @price=0,
+  @wtype_id=0>,
+ #<RPG::Weapon:0x00000000054a58d0
+  @animation_id=0,
+  @description="",
+  @etype_id=0,
+  @features=
+   [#<RPG::BaseItem::Feature:0x00000000054a5808
+     @code=31,
+     @data_id=1,
+     @value=0>,
+    #<RPG::BaseItem::Feature:0x00000000054a57e0
+     @code=22,
+     @data_id=0,
+     @value=0>],
+  @icon_index=0,
+  @id=16,
+  @name="",
+  @note="",
+  @params=[0, 0, 0, 0, 0, 0, 0, 0],
+  @price=0,
+  @wtype_id=0>]
